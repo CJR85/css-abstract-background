@@ -23,3 +23,11 @@ section {
   border-radius: 50%;
   // border: 2px solid #000;
 }
+
+.circle i {
+  position: absolute;
+  background: linear-gradient(90deg, #49aeff, #ff4c89);
+  z-index: 2;
+  filter: blur(50px);
+  border-radius: 50%;
+}
