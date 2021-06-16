@@ -14,3 +14,12 @@ section {
   min-height: 100vh;
   background: linear-gradient(90deg, #49aeff, #ff4c89);
 }
+
+.circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(90deg, #49aeff, #ff4c89);
+  border-radius: 50%;
+  // border: 2px solid #000;
+}
