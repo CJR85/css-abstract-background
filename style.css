@@ -28,6 +28,13 @@ section {
   position: absolute;
   background: linear-gradient(90deg, #49aeff, #ff4c89);
   z-index: 2;
+  inset: -5px;
   filter: blur(50px);
   border-radius: 50%;
+}
+
+.circle i:nth-child(4) {
+  background: #fff;
+  z-index: 3;
+  inset: 5px;
 }
